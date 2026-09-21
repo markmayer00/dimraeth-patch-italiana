@@ -40,8 +40,7 @@ COSA CONTIENE QUESTO PROGRAMMA
 
   L'immagine in cima alla finestra e' composta con due elementi grafici del
   gioco - il ritratto di Eldorian e il logo del titolo - ed e' l'unica parte di
-  materiale Mudtek che viaggia insieme al programma. Se Mudtek preferisce di
-  no, si toglie: il programma funziona identico anche senza.
+  materiale Mudtek che viaggia insieme al programma.
 
 
 SE SEI DI MUDTEK
