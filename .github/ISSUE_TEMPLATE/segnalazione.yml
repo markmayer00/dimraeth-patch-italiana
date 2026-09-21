@@ -1,0 +1,85 @@
+name: Segnala un problema
+description: Qualcosa non funziona con la patch
+labels: ["da verificare"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie della segnalazione. Più dettagli dai, prima si risolve.
+
+        Vanno benissimo anche le segnalazioni sulla **traduzione in sé**: un
+        termine che non convince, una frase che suona male, una scritta che
+        esce dal riquadro. Per le scritte tagliate **uno screenshot vale più di
+        dieci righe di descrizione**: si vedono solo a schermo, e le
+        descrizioni a parole di cosa va a capo si contraddicono tra loro.
+
+  - type: input
+    id: versione
+    attributes:
+      label: Versione della patch
+      description: La trovi nel nome della release da cui hai scaricato.
+      placeholder: "v1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: copia
+    attributes:
+      label: Da dove viene la tua copia del gioco
+      options:
+        - Steam
+        - Altro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lingua
+    attributes:
+      label: Quale lingua hai ceduto all'italiano
+      description: È quella che hai scelto nel menu a tendina del programma.
+      options:
+        - Portoghese (quella consigliata)
+        - Tedesco
+        - Spagnolo
+        - Russo
+        - Giapponese
+        - Coreano
+        - Cinese
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Che genere di problema è
+      options:
+        - Il programma non trova il gioco
+        - Il programma dà errore mentre applica
+        - Il gioco non parte dopo la patch
+        - Nel menu non compare Italiano
+        - Una frase è tradotta male
+        - Una scritta esce dal riquadro o va a capo
+        - Altro
+    validations:
+      required: true
+
+  - type: textarea
+    id: cosa
+    attributes:
+      label: Cosa succede
+      description: Dove sei nel gioco, cosa hai premuto, cosa ti aspettavi.
+    validations:
+      required: true
+
+  - type: textarea
+    id: riquadro
+    attributes:
+      label: Cosa dice il riquadro nero del programma
+      description: Se il problema è mentre applichi la patch, copia qui quello che c'è scritto.
+      render: text
+
+  - type: textarea
+    id: schermata
+    attributes:
+      label: Screenshot
+      description: Trascina qui l'immagine. Per le scritte tagliate è quello che serve davvero.

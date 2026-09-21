@@ -1,0 +1,88 @@
+PATCH ITALIANA PER DIMRAETH
+===========================
+
+Traduce in italiano tutto il testo del gioco: menu, missioni, dialoghi di
+tutti i personaggi, codice, albero delle abilita', incantesimi, oggetti.
+14.995 voci, 176.226 parole. Niente e' lasciato a meta'.
+
+
+COME SI USA
+-----------
+
+1. Chiudi Dimraeth, se e' aperto.
+2. Avvia PatchItaliana_Dimraeth.exe.
+3. Premi "Trova il gioco". Se non lo trova, usa "Sfoglia..." e indica la
+   cartella del gioco (quella con Dimraeth.exe dentro).
+4. Scegli quale lingua cedere all'italiano. Di norma va bene il portoghese.
+5. Premi "APPLICA LA TRADUZIONE" e aspetta un minuto.
+6. Avvia il gioco, vai nelle impostazioni e scegli ITALIANO.
+
+
+PERCHE' DEVO CEDERE UNA LINGUA
+------------------------------
+
+Il menu delle lingue di Dimraeth ne mostra otto, ed e' fatto per mostrare
+quelle: non c'e' modo di aggiungerne una nona senza riscrivere il programma.
+Quindi l'italiano prende il posto di una delle otto, e quella voce del menu
+viene rinominata "Italiano". Tutte le altre lingue restano come sono.
+
+Scegli una lingua che non useresti. Il portoghese e' il consiglio di partenza.
+L'inglese non si puo' cedere apposta: e' quello che il gioco mostra se
+qualcosa non fosse tradotto, e senza diventerebbe illeggibile.
+
+
+SI PUO' TORNARE INDIETRO
+------------------------
+
+Si'. Il programma fa da solo una copia dei file che tocca, e il pulsante
+"Ripristina" li rimette come erano. Puoi anche riapplicare la patch quante
+volte vuoi: riparte sempre dai file originali, non si impila sopra se stessa.
+
+Se aggiorni il gioco e poi riapplichi la patch, il programma se ne accorge e
+rifa' la copia di sicurezza sulla versione nuova.
+
+
+COSA TOCCA, ESATTAMENTE
+-----------------------
+
+Due file dentro la cartella del gioco:
+
+  Dimraeth_Data\sharedassets1.assets
+      i testi veri e propri
+
+  Dimraeth_Data\il2cpp_data\Metadata\global-metadata.dat
+      solo il nome della lingua nel menu: nove byte, da "Portugues" a
+      "Italiano". Senza questo la traduzione ci sarebbe lo stesso, ma
+      dovresti sceglierla sotto il nome di un'altra lingua.
+
+Accanto a ciascuno trovi un file .orig, che e' la copia di sicurezza, e un
+.patchinfo, che serve al programma per accorgersi se il gioco e' stato
+aggiornato. Non cancellarli: senza .orig il pulsante "Ripristina" non ha piu'
+niente da cui ripartire.
+
+
+SE QUALCOSA VA STORTO
+---------------------
+
+Il programma non scrive niente se un controllo fallisce: o la patch riesce
+per intero, o il gioco resta com'era. Quello che compare nel riquadro nero
+dice sempre cosa e' successo.
+
+Se il gioco non parte piu', premi "Ripristina".
+
+Segnalazioni e problemi:
+https://github.com/markmayer00/dimraeth-patch-italiana/issues
+
+Per parlare della traduzione in se' - un termine che non convince, una frase
+che suona male - c'e' il Discord dei TWR, il gruppo con cui pubblico la patch:
+https://discord.gg/85ayAcHRfH
+
+
+CHI L'HA FATTA
+--------------
+
+Traduzione e patch: MarkMayer, insieme ai TWR.
+Dimraeth e' di Mudtek. Dettagli in CREDITI.txt.
+
+
+Buon viaggio nelle Montagne di Dimraeth.

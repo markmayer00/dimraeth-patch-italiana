@@ -1,0 +1,20 @@
+# ambienti e build
+.venv/
+.venvbuild/
+build/
+dist/
+dist_onedir/
+*.spec
+__pycache__/
+*.pyc
+
+# archivi di distribuzione: vanno nelle Release, non nel repository
+*.zip
+*.rar
+*.exe
+
+# scarti
+shot.png
+*.wav
+NOTE-RELEASE.md
+grafica/

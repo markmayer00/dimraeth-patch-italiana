@@ -1,0 +1,49 @@
+CREDITI
+=======
+
+TRADUZIONE ITALIANA E PATCH
+  MarkMayer
+
+  La traduzione di Dimraeth e il programma che la applica sono opera mia.
+  14.995 voci, 176.226 parole, tradotte da zero per questa patch: interfaccia,
+  missioni, i dialoghi di tutti e diciassette i personaggi, il codice, l'albero
+  delle abilita', gli incantesimi, gli oggetti, la cinematica d'apertura.
+
+  Non e' il riadattamento di una traduzione esistente: prima di questa patch
+  Dimraeth in italiano non c'era.
+
+
+CON I TWR
+  Questa patch e' pubblicata e seguita insieme ai TWR, il gruppo di traduzione
+  italiano con cui collaboro.
+
+  Il loro Discord e' il posto giusto per parlare della traduzione in se': un
+  termine che non convince, una frase che suona male, una scritta che esce dal
+  riquadro. Per i problemi del programma conviene invece aprire una
+  segnalazione su GitHub, dove restano scritti.
+
+  https://discord.gg/85ayAcHRfH
+
+
+IL GIOCO
+  Dimraeth e' di Mudtek. Tutti i diritti sul gioco, sui suoi testi originali,
+  sui suoi personaggi e sulle sue immagini sono loro.
+
+  Questa e' una patch amatoriale non ufficiale, senza alcun legame con loro,
+  e non ci si guadagna niente.
+
+
+COSA CONTIENE QUESTO PROGRAMMA
+  Il testo italiano, e l'immagine della finestra. Non contiene nessun file di
+  gioco: la patch riscrive quelli gia' installati sul tuo computer, partendo da
+  una copia di sicurezza che si fa da sola.
+
+  L'immagine in cima alla finestra e' composta con due elementi grafici del
+  gioco - il ritratto di Eldorian e il logo del titolo - ed e' l'unica parte di
+  materiale Mudtek che viaggia insieme al programma. Se Mudtek preferisce di
+  no, si toglie: il programma funziona identico anche senza.
+
+
+SE SEI DI MUDTEK
+  Se preferite che questa patch non circoli, basta dirlo e sparisce.
+  Se invece volete l'italiano nel gioco, il testo e' vostro: prendetelo.

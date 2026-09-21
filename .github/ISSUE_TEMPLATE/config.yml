@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord dei TWR
+    url: https://discord.gg/85ayAcHRfH
+    about: Il gruppo con cui pubblico la patch. Per parlare della traduzione, dei termini, o solo per fare due chiacchiere.
+  - name: Come funziona la patch
+    url: https://github.com/markmayer00/dimraeth-patch-italiana/blob/main/docs/come-funziona.md
+    about: Cosa tocca, perché una lingua va ceduta, e come si torna indietro. Prima di segnalare, magari c'è già la risposta.
+  - name: Dimraeth su Steam
+    url: https://store.steampowered.com/app/2402680/
+    about: La pagina del gioco. Per i problemi del gioco in sé, non della patch.
