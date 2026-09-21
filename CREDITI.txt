@@ -45,5 +45,4 @@ COSA CONTIENE QUESTO PROGRAMMA
 
 
 SE SEI DI MUDTEK
-  Se preferite che questa patch non circoli, basta dirlo e sparisce.
-  Se invece volete l'italiano nel gioco, il testo e' vostro: prendetelo.
+  Se volete l'italiano dentro al gioco, il testo e' vostro: prendetelo.

@@ -224,9 +224,9 @@ Il **codice** di questo repository è rilasciato sotto licenza MIT — vedi
 [LICENSE](LICENSE).
 
 La **traduzione italiana** (`src/italiano.json.gz`) è di MarkMayer, pubblicata
-con i TWR, e si può riusare e ridistribuire liberamente citando la fonte.
+con i TWR, e non è coperta dalla licenza del codice.
 
 Dimraeth è di **Mudtek**. Tutti i diritti sul gioco, sui suoi testi originali,
 sui suoi personaggi e sulle sue immagini sono loro. Questa è una patch
 amatoriale non ufficiale, senza alcun legame con loro, e non ci si guadagna
-niente. Se Mudtek preferisce che non circoli, basta dirlo e sparisce.
+niente.
